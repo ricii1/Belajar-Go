@@ -80,6 +80,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		defer fmt.Println("Defer:", i)
 	}
+	// defer: 9
 
 	// Contoh defer pada fungsi. Defer tetap akan dilakukan meskipun ada error
 	fmt.Println("\nUsing defer in a function:")
